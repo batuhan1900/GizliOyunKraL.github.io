@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0 ;
+
+}
+body { 
+    background-image: url(gözlerrr.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+   
+
+}   
+.Hash1Merkez      {
+    text-align: center; 
+    align-items: center;
+
+}

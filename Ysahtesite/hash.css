@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+      
+}
+body{
+    font-family:'Dancing Script',sans-serif;
+    background-color: black; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    font-size: 120px;
+    background-size: cover;
+    align-items: center;  
+}
+.Merkezhash .btn {
+ background-color: black;
+ 
+}
+.Merkezhash .btn:hover {
+    background-color: red;
+    color: red;
+
+}
+.Merkezhash .btnH {
+    background-color: black;
+}
+.Merkezhash .btnH:hover {
+    background-color: rgb(9, 222, 9);
+    color:  rgb(245, 245, 245);
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+
+}
+body {  
+    background-image: url("cokiyipcli.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+}   
+p  {
+    font-size: 20px;
+     
+}
+h1 {
+    text-decoration: firebrick;
+    font-size: 45px;
+}

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+      
+}
+body{
+    font-family:'Dancing Script',sans-serif;
+    background-image: url("cokiyipcli1.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+    background-size: auto;
+}
+
+
+.ustkısım{
+    width: 90%;
+    margin: auto;
+    
+
+}
+/* header start */
+header{
+    height: 100px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3  );
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+header nav .yukarisi a{
+color: white;
+text-decoration: none;
+font-weight: 7000;
+font-size: 40px;    
+}
+header nav .yukarisi a:hover{
+    color: darkblue ;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+nav ul li a{
+
+    color: white;
+    text-decoration: none;
+    transition: all .25s ease;
+}
+nav ul li a:hover{
+color: darkblue;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    
+}
+nav .menu .giris-butonu {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        background-color: rgba(255,255, 255, 0.09);
+        padding: 15px 20px ;
+        border-radius: 30px;
+}
+nav .menu .giris-butonu:hover{
+    background-color: darkblue;
+    color: green;   
+}
+/* header end */    
+/*section start*/
+
+.kontent h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+.kontent p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* BUNLAR LOGİN YAPTIKTAN SONRA GELİCEK 
+.content .linkler{
+    display: flex;  
+    justify-content: center;
+    margin-top: 30px;   
+    column-gap: 50px;
+    
+}
+
+.content .linkler a{
+   background-color:  rgba(255, 255, 255, 0.05);
+   color: blueviolet    ;
+   width: 200px;
+   height: 100px;
+   padding-left: 20px;
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   font-size: 50px;
+   text-decoration: none;
+   border-top-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   transition: all .25s ease-in;
+}
+.content .linkler a:hover{
+    background-color:  rgba(234, 83, 236, 0.2);
+    color: black;
+
+}
+*/
+/*section end*/ 
+/* BURASI TABLO İÇİN */
+    .kayittablo form h1 {
+        font-size: 60px;
+        text-decoration: none;
+        color: black;
+        
+
+    }
+  .kayittablo {
+    border-radius: 10px;
+    color: rgb(0, 0, 0);    
+    text-align: center;
+    width: auto; ;
+    height: auto    ;
+  }
+  .kayittablo form label {
+    font-size: 14px;
+  }
+  /* BURASI TABLO BİTİŞİ*/
+/* responsive start */
+
+@media(max-width:860px){
+    .container{
+        width: 120%;
+        
+    }
+ body { 
+font-size: 16px;
+ }
+ nav ul{
+    column-gap: 10px;
+}
+header nav .yukarisi a{
+    font-size: 16px ;
+}
+}
+
+@media(max-width:650px) {
+    .kontent h1{
+        font-size: 20px;
+    }
+    .kontent p{
+        font-size: 15px;
+    }
+}
+
+
+
+/* responsive end */

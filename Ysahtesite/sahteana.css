@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+
+}
+body {  
+    background-image: url(gözlerrr.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+}   
+ .Anayapı{
+    font-family:'Dancing Script',sans-serif;
+     text-align: center;          
+ }
+ .btnM {
+    font-family:'Dancing Script',sans-serif;
+   size: 10px;
+   background-color: gray;
+}  
+ h1 {
+    font-family:'Dancing Script',sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+h2 {
+    font-family:'Dancing Script',sans-serif;
+    color: rgb(162, 160, 160);
+    text-align: center;
+    font-size: 32px;
+}
+h3{
+    font-family:'Dancing Script',sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 32px;
+}
+p {
+    font-family:'Dancing Script',sans-serif;
+color: rgb(255, 255, 255);
+font-size: 27.5px ;
+}
+img {
+    font-family:'Dancing Script',sans-serif;
+    margin-top: 40px;
+   
+}
+.yazıvefoto1 p{ font-family:'Dancing Script',sans-serif;
+    color: green;
+}
+i  {
+    font-family:'Dancing Script',sans-serif;
+   color: red;
+}
+    em {
+        font-family:'Dancing Script',sans-serif;
+        background-color: rgba(66, 66, 66,0.4);
+}
+B{
+    font-family:'Dancing Script',sans-serif;
+    background-color: rgba(221, 35, 35, 0.6);
+}
+
+ h4 {
+    font-family:'Dancing Script',sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.yazı2vefoto2 p {
+    font-family:'Dancing Script',sans-serif;
+    font-size: 29px;
+    color: gray;
+}
+a {
+    font-family:'Dancing Script',sans-serif;
+    color: gray;
+    text-decoration: none;
+}
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font-size: 35px;
+}

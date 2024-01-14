@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+    
+   
+
+}
+body {
+   display: flex;
+    justify-content: center;
+    align-items: center;       
+    background-image: url('güzelpembeli.png');
+    min-height: 100vh;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 160px;
+}
+h3 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 40px;
+}
+.btn{
+    color: rgb(91, 3, 91);
+    background-color: rgba(253, 253, 253, 0.5);
+   
+}
+.btnD {
+ color:rgb(91, 3, 91);
+ background-color: rgba(255, 255, 255, 0.5);
+}
+.btnD:focus-within {
+ color: rgba(6, 232, 6, 0.61);
+}
+.btn:focus-within{
+    color: red
+}
+
+.btnG{
+    margin-top: 30px;
+    margin-bottom: 10px;
+border: none;
+background-color: rgb(107, 8, 108);
+font-size: 4px;    }
+
+/* responsive start 
+
+
+
+
+@media(max-width:690px) {
+    
+
+}
+
+
+
+ responsive end */
+
+

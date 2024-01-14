@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+      
+}
+body{
+    font-family:'Dancing Script',sans-serif;
+    background-image: url("cokiyipcli.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    font-size: 120px;
+    background-size: cover;
+    align-items: center;   
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+.kontent2 .linkler{
+    display: flex;  
+    justify-content: center;
+    margin-top: 25px;   
+    column-gap: 50px;
+    
+}
+
+.kontent2 .linkler a{
+   background-color:  rgba(102, 15, 94, 0.2);
+   color: rgb(144, 47, 234)    ;
+   width: 1000px;    
+   height: 200px;
+   padding-left: 20px;
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   font-size: 100px;
+   text-decoration: none;
+   border-top-left-radius: 90px;
+   border-bottom-right-radius: 90px;
+   transition: all .25s ease-in;
+   text-align: center   ;
+   margin-left: 140px;
+
+}
+.kontent2 .linkler a:hover{
+    background-color:  rgba(234, 83, 236, 0.2);
+    color: black;
+
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+   
+
+}
+body {
+    justify-content: center;
+    align-items: center;        
+    background-color:rgb(151, 9, 170) ;
+    min-height: 100vh;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+}
+
+    .merkezkontrol2 h1 {
+        color: blue;
+        font-family: 'Dancing Script',sans-serif;
+        font-size: 60px;
+        text-align: center;     
+        text-decoration:  none;
+    }
+    .merkezkontrol2{
+        margin-top: 50px;
+        text-align: center;
+        
+        
+        
+    }
+   .merkezkontrol2 img {
+    
+       margin-top: 100px;
+       block-size: 450px;
+     }
+     @media(max-width:765px) {
+        .merkezkontrol2 h1 {
+            font-size: 22px;
+        }
+        .merkezkontrol2 img {
+            block-size: 220px;
+        }
+       
+    
+    }
